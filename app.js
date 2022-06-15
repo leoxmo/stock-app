@@ -3,7 +3,7 @@ const app = express()
 app.get('/', (req, res)=>{
     console.log('Peticion recibida')
 
-    res.status(200).send("hola mundo con nodemon")
+    res.status(200).send("hola mundo con nodemn")
 })
 
 app.listen(4000, ()=>{
