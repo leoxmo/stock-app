@@ -6,7 +6,7 @@ const app = express()
 app.get('/', (req, res)=>{
     console.log('Peticion recibida')
 
-    res.status(200).send("hola mundo con nodemn")
+    res.status(200).send("hola mundo sin .env ")
 })
 
 const PORT = process.env.PORT
